@@ -1,10 +1,3 @@
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 4
- * CSE214, R11 (Reed Gantz)
- */ 
-
 /**
  * @author vivi3
  *  Represents a packet that will be sent through the network. 
@@ -26,15 +19,11 @@ public class Packet {
 	int timeToDest;
 	int initialTime;
 	
-	/**
-	 * Empty constuctor for packet
-	 */
 	public Packet() {
 		
 	}
 	
 	/**
-	 * Constructor that takes packetSize as a parameter
 	 * @param packetSize
 	 */
 	public Packet(int packetSize) {
@@ -46,7 +35,6 @@ public class Packet {
 	}
 
 	/**
-	 * Accessor method for id
 	 * @return id, a unique identifier for the packet. 
 	 * This will be systematically determined by using packetCount.
 	 */
@@ -55,7 +43,6 @@ public class Packet {
 	}
 	
 	/**
-	 * Mutator method for id
 	 * @param id
 	 */
 	public void setId(int id) {
@@ -63,7 +50,6 @@ public class Packet {
 	}
 	
 	/**
-	 * Accessor method for packetSize
 	 * @return the size of the packet being sent. 
 	 */
 	public int getPacketSize() {
@@ -71,7 +57,6 @@ public class Packet {
 	}
 	
 	/**
-	 * Mutator method for packetSize
 	 * @param packetSize
 	 */
 	public void setPacketSize(int packetSize) {
@@ -79,7 +64,6 @@ public class Packet {
 	}
 	
 	/**
-	 * Accessor method for timeArrive
 	 * @return the time this Packet is created should be recorded in this variable
 	 */
 	public int getTimeArrive() {
@@ -87,7 +71,6 @@ public class Packet {
 	}
 	
 	/**
-	 * Mutator method for timeArrive
 	 * @param timeArrive 
 	 */
 	public void setTimeArrive(int timeArrive) {
@@ -95,7 +78,6 @@ public class Packet {
 	}
 	
 	/**
-	 * Accesor method for timeToDest
 	 * @return this variable contains the number of simulation units that it takes
 	 *  for a packet to arrive at the destination router.
 	 */
@@ -104,7 +86,6 @@ public class Packet {
 	}
 
 	/**
-	 * Mutator method for timeToDest
 	 * @param timeToDest
 	 */
 	public void setTimeToDest(int timeToDest) {

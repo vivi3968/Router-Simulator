@@ -1,14 +1,6 @@
 import java.util.LinkedList;
 import java.util.*;
 
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 4
- * CSE214, R11 (Reed Gantz)
- */ 
-
-
 /**
  * @author vivi3
  * Represents a router in the network, which is ultimately a queue
@@ -19,7 +11,6 @@ public class Router extends ArrayList<Packet> {
     int size = 0;
     
     /**
-     * Empty constuctor for router which creates a queue
      */
     public Router() {
     	queue = new ArrayList<Packet>();

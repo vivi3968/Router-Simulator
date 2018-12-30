@@ -2,13 +2,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Scanner;
 
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 4
- * CSE214, R11 (Reed Gantz)
- */ 
-
 public class Simulator {
 	
 	Router dispatcher;
